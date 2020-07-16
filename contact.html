@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Traveler</title>
+        <link rel="stylesheet" href="./assets/css/app.css" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__container container">
+                <a href="index.html" class="header__brand">Traveler</a>
+
+                <button
+                    class="header__hamburger hamburger"
+                    data-target="#master-nav"
+                >
+                    <span class="hamburger__bar"></span>
+                    <span class="hamburger__bar"></span>
+                    <span class="hamburger__bar"></span>
+                </button>
+
+                <nav id="master-nav" class="header__nav nav">
+                    <ul class="nav__menu">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link">Home</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="index.html#about" class="nav__link"
+                                >About us</a
+                            >
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="contact.html" class="nav__link"
+                                >Contact us</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main">
+            <article>
+                <header
+                    id="master-header"
+                    class="hero"
+                    style="
+                        background-image: url('./assets/images/landscape.jpg');
+                    "
+                >
+                    <div class="hero__body">
+                        <div class="hero__container container">
+                            <h1 class="hero__title">
+                                Contact Us
+                            </h1>
+                        </div>
+                    </div>
+                </header>
+
+                <section class="section">
+                    <div class="container flow">
+                        <h2 class="section__title">Make a budget</h2>
+
+                        <form class="flow">
+                            <div class="field">
+                                <label for="name" class="field__label"
+                                    >Your full name</label
+                                >
+                                <input
+                                    type="text"
+                                    name="name"
+                                    id="name"
+                                    class="field__input"
+                                />
+                            </div>
+
+                            <div class="field">
+                                <label for="name" class="field__label"
+                                    >Your e-mail</label
+                                >
+                                <input
+                                    type="email"
+                                    name="email"
+                                    id="email"
+                                    class="field__input"
+                                />
+                            </div>
+
+                            <div class="field">
+                                <label for="budget" class="field__label"
+                                    >Describe for us your project</label
+                                >
+                                <textarea
+                                    name="budget"
+                                    id="budget"
+                                    cols="30"
+                                    rows="10"
+                                    class="field__input"
+                                ></textarea>
+                            </div>
+
+                            <button
+                                class="button button--large button--primary"
+                            >
+                                Make a budget
+                            </button>
+                        </form>
+                    </div>
+                </section>
+            </article>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <p>Designed by Lucas Akira Ayabe in 2020.</p>
+            </div>
+        </footer>
+
+        <script src="./assets/js/app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Traveler</title>
+        <link rel="stylesheet" href="./assets/css/app.css" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__container container">
+                <a href="index.html" class="header__brand">Traveler</a>
+
+                <button
+                    class="header__hamburger hamburger"
+                    data-target="#master-nav"
+                >
+                    <span class="hamburger__bar"></span>
+                    <span class="hamburger__bar"></span>
+                    <span class="hamburger__bar"></span>
+                </button>
+
+                <nav id="master-nav" class="header__nav nav">
+                    <ul class="nav__menu">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link">Home</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a
+                                href="#about"
+                                class="nav__link"
+                                data-internal-link
+                                >About us</a
+                            >
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="contact.html" class="nav__link"
+                                >Contact us</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main">
+            <article>
+                <header
+                    id="master-header"
+                    class="hero hero--full-height"
+                    style="background-image: url('./assets/images/sky.jpg');"
+                >
+                    <div class="hero__body">
+                        <div class="hero__container container">
+                            <h1 class="hero__title">
+                                Do something awesome!!!
+                            </h1>
+                        </div>
+                    </div>
+                </header>
+
+                <section id="about" class="section">
+                    <div class="section__container container">
+                        <div class="section__body flow">
+                            <h2 class="section__title">About us</h2>
+                            <p class="section__text">
+                                We are a cool travel company with a great
+                                tradition, great recommendations for incredible
+                                places that will give you unforgettable moments
+                                at a price that fits your pocket.
+                            </p>
+
+                            <p class="section__text">
+                                So we guarantee you the best experience, as
+                                several of our customers have already stated,
+                                try our recommendations and have unique
+                                experiences.
+                            </p>
+
+                            <a
+                                href="contact.html"
+                                class="button button--primary"
+                                >Make a budget</a
+                            >
+                        </div>
+
+                        <figure class="section__figure">
+                            <img
+                                src="./assets/images/landscape.jpg"
+                                alt=""
+                                class="section__image"
+                            />
+                        </figure>
+                    </div>
+                </section>
+
+                <section
+                    id="qualities"
+                    class="section section--primary section--center"
+                >
+                    <div class="container flow">
+                        <h2 class="section__title">Why Us</h2>
+                        <div class="columns">
+                            <div class="columns__column">
+                                <article class="card card--white">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="64"
+                                        height="64"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="card__icon"
+                                    >
+                                        <polygon
+                                            points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"
+                                        ></polygon>
+                                    </svg>
+
+                                    <h3 class="card__title">Radical</h3>
+                                    <p class="card__text">
+                                        Have a radical adventure
+                                    </p>
+                                </article>
+                            </div>
+
+                            <div class="columns__column">
+                                <article class="card card--white">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="64"
+                                        height="64"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="card__icon"
+                                    >
+                                        <path
+                                            d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
+                                        ></path>
+                                        <circle cx="12" cy="13" r="4"></circle>
+                                    </svg>
+
+                                    <h3 class="card__title">Memorable</h3>
+                                    <p class="card__text">
+                                        Here the adventure is unforgettable
+                                    </p>
+                                </article>
+                            </div>
+
+                            <div class="columns__column">
+                                <article class="card card--white">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="64"
+                                        height="64"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="card__icon"
+                                    >
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <line
+                                            x1="2"
+                                            y1="12"
+                                            x2="22"
+                                            y2="12"
+                                        ></line>
+                                        <path
+                                            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+                                        ></path>
+                                    </svg>
+
+                                    <h3 class="card__title">Beautiful</h3>
+                                    <p class="card__text">
+                                        Our landscapes are impressive
+                                    </p>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section section--center">
+                    <div class="container">
+                        <h2 class="section__title">Places to travel</h2>
+
+                        <div class="columns">
+                            <div class="columns__column">
+                                <article class="card">
+                                    <img
+                                        src="./assets/images/landscape.jpg"
+                                        alt=""
+                                        class="card__image"
+                                    />
+                                    <h3 class="card__title">Rivers</h3>
+                                </article>
+                            </div>
+
+                            <div class="columns__column">
+                                <article class="card">
+                                    <img
+                                        src="./assets/images/ocean.jpg"
+                                        alt=""
+                                        class="card__image"
+                                    />
+                                    <h3 class="card__title">Oceans</h3>
+                                </article>
+                            </div>
+
+                            <div class="columns__column">
+                                <article class="card">
+                                    <img
+                                        src="./assets/images/sky.jpg"
+                                        alt=""
+                                        class="card__image"
+                                    />
+                                    <h3 class="card__title">Montains</h3>
+                                </article>
+                            </div>
+
+                            <div class="columns__column">
+                                <article class="card">
+                                    <img
+                                        src="./assets/images/sky.jpg"
+                                        alt=""
+                                        class="card__image"
+                                    />
+                                    <h3 class="card__title">Montains</h3>
+                                </article>
+                            </div>
+
+                            <div class="columns__column">
+                                <article class="card">
+                                    <img
+                                        src="./assets/images/landscape.jpg"
+                                        alt=""
+                                        class="card__image"
+                                    />
+                                    <h3 class="card__title">Rivers</h3>
+                                </article>
+                            </div>
+
+                            <div class="columns__column">
+                                <article class="card">
+                                    <img
+                                        src="./assets/images/ocean.jpg"
+                                        alt=""
+                                        class="card__image"
+                                    />
+                                    <h3 class="card__title">Oceans</h3>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <p>Designed by Lucas Akira Ayabe in 2020.</p>
+            </div>
+        </footer>
+
+        <script src="./assets/js/app.js"></script>
+    </body>
+</html>
